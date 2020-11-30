@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+</head>
+<body>
+  <!--Navigation bar-->
+  <div class="html-container">
+    <div class="html-section">
+      <div class="html-project">
+        <div class="navigation">
+            <ul class="nav-type">
+               <p><a href="index" class="active">Home</a></p>
+               <p><a href="recipes" class="active2">Recipes</a></p>
+               <p><a href="aboutus" class="active1">About</a></p>
+               <p><a href="login" class="active3">Login</a></p>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="form-box">
+    <div class="head">Welcome Back</div>
+    <form action="#" id="login-form">
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Email</span>
+          </label>
+          <input type="email" name="email" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Password</span>
+          </label>
+          <input type="password" name="password" class="form-control" />
+        </div>
+        <input type="submit" value="Login" class="btn" />
+        <p class="text-p">Don't have an account? <a href="registration">Sign Up</a> </p>
+    </form>
+  </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+  $('.form-group input').on('focus blur', function (e) {
+      $(this).parents('.form-group').toggleClass('active', (e.type === 'focus' || this.value.length > 0));
+  }).trigger('blur');
+});
+</script>
+</body>
+</html>

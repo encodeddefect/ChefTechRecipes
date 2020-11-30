@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<link href="/stylesheets/style.css" rel="stylesheet" />
+  <title>Lunch Recipes</title></head>
+  <body>
+  <p><a href="recipes">Back To recipes</a></p>
+   <h1>^^^^^^^^^</h1>
+                    <div class="html-container">
+                      <div class="html-section">
+                        <div class="html-project">
+                          <div class="navigation">
+                              <ul class="nav-type">
+                                <p><a href="index" class="active">Home</a></p>
+                                <p><a href="recipes" class="active2">Recipes</a></p>
+                                <p><a href="aboutus" class="active1">About</a></p>
+                                <p><a href="login" class="active3">Login</a></p>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <center><span ><h1>Lunch Recipes</h1></span><center>
+                    <p><a href="recipes"></a></p>
+
+             <% for (i=0; i < lunch.length; i++) { %>
+             <table width = "50%" border = "5">
+             <col width= "80">
+             <col width= "150">
+               <tr>
+                 <td ><%- 'Title:'  %> </td>
+                 <td><a href= "<%- lunch[i].title %>"><%- lunch[i].title %></a></td>
+               </tr>
+               </table>
+               <% } %>
+  </body>
+</html>

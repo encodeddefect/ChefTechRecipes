@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<link href="/stylesheets/style.css" rel="stylesheet" />
+
+  <title><%-title%></title>
+
+</head>
+  <body>
+  <p></p>
+  <h1><a href="recipes">Back To recipes</a></h1>
+    <h3><%-title%></h3>
+             <% for (i=0; i < array.length; i++) { %>
+             <table width = "100%" border = "5">
+               <tr>
+                 <td><%- 'Title:'  %> </td>
+                 <td><%- array[i].title %></td>
+               </tr>
+               <tr>
+                 <td><%- 'Description:'  %> </td>
+                 <td><%- array[i].description %></td>
+               </tr>
+               <tr>
+                 <td><%- 'Ingredients:'  %> </td>
+                 <td><%- array[i].ingredients %></td>
+               </tr>
+               <tr>
+                 <td><%- 'Directions:'  %> </td>
+                 <td><%- array[i].direction %></td>
+               </tr>
+               <tr>
+                 <td><%- 'Difficulty:'  %> </td>
+                 <td><%- array[i].difficulty %></td>
+               </tr>
+               </table>
+               <% } %>
+      </div><div class="<%-ft%>">
+      </div>
+  </body>
+</html>

@@ -1,0 +1,653 @@
+[{
+  "_id": {
+    "$oid": "5fb028fd8ee4a0ca0cf03a85"
+  },
+  "title": "French Toast",
+  "description": "Create your own golden brown tasty French Toasts",
+  "ingredients": [
+    "2 Eggs",
+    "4 Slices of Bread",
+    "1 teaspoon of ground cinnamon",
+    "1 teaspoon sugar",
+    "1/4 cup of milk",
+    "1/4 teaspoon of vanilla extract",
+    "2 tablespoons of butter"
+  ],
+  "direction": [
+    "1. In a bowl wicks together the eggs, ground cinnamon, sugar, vanilla extract and milk.",
+    "2. Melt butter over medium heat",
+    "3. Dip bread in mixture, both sides",
+    "4. Lay slices on the pan for 1 minute on both sides or until golden brown"
+  ],
+  "difficulty": "1",
+  "type": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "5fb07ec455160934940d7b13"
+  },
+  "title": "Pancakes",
+  "description": "How to make your own tasty morning pancakes",
+  "ingredients": [
+    "2 Eggs ",
+    "1 1/2 cups all-purpose flour",
+    "1 tablespoon baking powder",
+    "1/4 teaspoon salt",
+    "1/2 teaspoon pure vanilla extract ",
+    "1 1/4 cups milk",
+    "2 table spoons of butter"
+  ],
+  "direction": [
+    "1. In a bowl wisk together eggs,milk and vanilla extract",
+    "2. In another bowl mix together all-purpose flour,baking powder, salt",
+    "3. Add the contents of the wet bowl into the flour bowl and mix until a thick batter is formed ",
+    "4. Melt the butter over meduim heat then pour 1/4 cup of the batter onto the skillet",
+    "5. Cook until the bottom is golden brown then filp",
+    "6. Repeat until you are out of batter"
+  ],
+  "difficulty": "1",
+  "type": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "5fb5d680d884342bc43cbad3"
+  },
+  "title": "Avocado Toasts",
+  "description": "A delicious avocado spread on golen brown toast",
+  "ingredients": [
+    "4 slices of bread",
+    "1 clove gralic",
+    "One 8-ounce avocado",
+    "2 tablespoon of butter ",
+    "Pinch of salt and Black Pepper"
+  ],
+  "direction": [
+    "1. Peel then mash the avocado in a bowl",
+    "2. Add chopped garlic",
+    "3. Toast the bread to your liking",
+    "4. Add salt and pepper",
+    "5. Spread avacado evenly on toast"
+  ],
+  "difficulty": "1",
+  "type": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "5fb5d784d884342bc43cbad4"
+  },
+  "title": "Scrambled Eggs and Cheese",
+  "description": "Tasty scrambled eggs with cheese of your choice",
+  "ingredients": [
+    "6 eggs",
+    "Pinch of salt and black pepper",
+    "Choice of Shreded Cheese",
+    "1 tablespoon of butter"
+  ],
+  "direction": [
+    "1. Mix eggs in a bowl",
+    "2. Add salt and pepper",
+    "3. Melt butter in pan over low heat ",
+    "4. Add eggs to pan ",
+    "5. Add Cheese ",
+    "6. Stir eggs for 8-10 minutes"
+  ],
+  "difficulty": "1",
+  "type": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "5fb68720f768430d3438fc3a"
+  },
+  "title": "Bacon Egg and Cheese Bagel ",
+  "description": "Bacon eggs and cheese on a toasted bagel",
+  "ingredients": [
+    "2 eggs",
+    "2 Slices of Bacon",
+    "A Bagel",
+    "2 Slices of american cheese",
+    "2 tablespoon of olive oil"
+  ],
+  "direction": [
+    "1. Mix eggs in a bowl",
+    "2. Cook bacon on medium-high heat for 8-10 minutes on both sides",
+    "3. Cook eggs on meduim heat for 2 minutes",
+    "4. Toast bagel to your liking",
+    "5. Add egg, cheese and cooked bacon to bagel"
+  ],
+  "difficulty": "1",
+  "type": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "5fb6b255f768430d3438fc3b"
+  },
+  "title": "Stuffed Chicken",
+  "description": "Chicken breast stuffed with spinach,parmesan and cream cheese",
+  "ingredients": [
+    "Chicken Breast",
+    "A bag of spinach",
+    "Cream Cheese",
+    "A bag of parmesan cheese",
+    "Salt and Black pepper"
+  ],
+  "direction": [
+    "1. Season chicken to liking with salt and pepper",
+    "2. Cut a 3-inch wide pocket into the side of the chicken breast",
+    "3. In a bowl mix a hand full of spinach for each breast, 2-3 spoons of cream cheese and 2 cups of parmesan cheese",
+    "4. Stuff the spinach mixture into the pocket of the breast",
+    "5. Bake chicken in 350 temp for 30 minutes"
+  ],
+  "difficulty": "2",
+  "type": "lunch"
+},
+{
+  "_id": {
+    "$oid": "5fb6b286f768430d3438fc3c"
+  },
+  "title": "BLT",
+  "description": "Quick and easy BLT",
+  "ingredients": [
+    "2 Slices of Bacon ",
+    "2 Slices of Bread",
+    "2 leaves of Lettuce",
+    "2 Slices of tomato"
+  ],
+  "direction": [
+    "1. Cook bacon on medium-high heat for 8-10 minutes on both sides",
+    "2. Arrange bacon,lettuce and tomato on the slices of bread"
+  ],
+  "difficulty": "1",
+  "type": "lunch"
+},
+{
+  "_id": {
+    "$oid": "5fb6b2b2f768430d3438fc3d"
+  },
+  "title": "Grill Cheese",
+  "description": "Tasty girll cheese",
+  "ingredients": [
+    "2 Silces of bread",
+    "2 Slices of Cheddar cheese",
+    "2 tablespoons of butter"
+  ],
+  "direction": [
+    "1. Butter the outer side of the beards",
+    "2. Add the slices of cheese between the bread slices",
+    "3. Grill the sandwich until lightly brown then filp to the other side",
+    "4. Continue grilling until cheese is melted"
+  ],
+  "difficulty": "1",
+  "type": "lunch"
+},
+{
+  "_id": {
+    "$oid": "5fb864bcf768430d3438fc3f"
+  },
+  "title": "Honey Lime Chicken",
+  "description": "Pan-Roasted Honey Lime Chicken Thighs - one of the best and the easiest chicken thigh recipes you'll ever try!",
+  "ingredients": [
+    "4 tablespoons lime juice freshly squeezed",
+    "2 tablespoons honey",
+    "1 tablespoon soy sauce",
+    "7 chicken thighs (about 7 or 8 chicken thighs, depends on the size of your skillet)",
+    "1/2 teaspoon salt",
+    "2 tablespoon olive oil",
+    "2 green onions chopped",
+    "1 lime sliced (for garnish only)"
+  ],
+  "direction": [
+    "1. In a small bowl combine lime juice, honey, soy sauce.",
+    "2. Salt the chicken thighs with 1/2 teaspoon of salt (or more) thoroughly, all over, including under the skin.",
+    "3. In 12-inch skillet, heat olive oil over medium-high heat.",
+    "4. Add chicken thighs, skin side down, and cook for about 5 minutes until the chicken skin side gets nicely browned (make sure to get really nice brown, not just pale brown - it makes a difference in presentation).",
+    "5. Turn chicken, so that skins sides are up and add lime-honey mixture to the skillet. Reduce heat to low; cover and cook 14 to 18 minutes longer or until done (chicken should register 180 degrees F on instant thermometer). While cooking, covered, chicken thighs will release their own juices, as well.",
+    "6. Transfer chicken to plates. Drizzle chicken with pan juices. Top with chopped green onions and serve with lime slices."
+  ],
+  "difficulty": "2",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb8650af768430d3438fc40"
+  },
+  "title": "Instant Pot Ribs",
+  "description": "Instant Pot® ribs are so tender they fall of the bone. The best part is that you can cook them start to finish in just a little over an hour.",
+  "ingredients": [
+    "2 cups apple juice",
+    "¼ cup apple cider vinegar",
+    "2 tablespoons liquid smoke",
+    "2 bay leaves, or more to taste",
+    "2 racks baby back pork ribs"
+  ],
+  "direction": [
+    "1. Combine juice, vinegar, and liquid smoke in a multi-functional pressure cooker (such as Instant Pot®). Add bay leaves.",
+    "2. Add a trivet to the pot and place ribs on top, trimming as needed to fit.",
+    "3. Close and lock the lid; set valve to sealing. Choose high pressure and set timer for 15 minutes. Allow 10 to 15 minutes for pressure to build.",
+    "4. Release pressure using the natural-release method according to manufacturer's instructions, about 15 minutes. Unlock and remove the lid."
+  ],
+  "difficulty": "1",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb86c92f768430d3438fc41"
+  },
+  "title": "Grilled Salmon With Pesto Crust",
+  "description": "Start with the great taste of grilled salmon then finish under the broiler to form a crust of homemade pesto. This recipe is easy to make, but tastes and looks like a gourmet meal.",
+  "ingredients": [
+    "¼ cup pine nuts",
+    "½ cup coarsely chopped fresh basil",
+    "¼ cup grated Parmesan cheese",
+    "1 clove garlic, minced",
+    "3 tablespoons extra-virgin olive oil",
+    "Salt and freshly ground black pepper to taste",
+    "1 pound salmon fillet "
+  ],
+  "direction": [
+    "1. Heat a small skillet over medium heat; cook and stir pine nuts in the hot skillet until fragrant and toasted, about 5 minutes.",
+    "2. Blend basil, Parmesan cheese, toasted pine nuts, and garlic in a blender until a thick paste forms.",
+    "3. Gradually stream olive oil into blender and continue blending until desired consistency of pesto is reached; season with salt and pepper.",
+    "4. Preheat an outdoor grill for medium-high heat and lightly oil the grate. Season both sides of salmon with salt and pepper.",
+    "5. Place salmon, skin-side down, onto grill grates; close grill and cook until salmon is about 2/3 done, 8 to 15 minutes.",
+    "6. Remove salmon from grill using a spatula and transfer to a baking sheet, skin-side down.",
+    "7. Spread pesto evenly over the salmon. Save extra pesto for another use if there are leftovers.",
+    "8. Set oven rack about 6 inches from the heat source and preheat the oven's broiler.",
+    "9. Broil salmon until fish flakes easily with a fork and pesto is bubbling, about 5 minutes."
+  ],
+  "difficulty": "2",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb86d27f768430d3438fc42"
+  },
+  "title": "Summer Nights Eggplant",
+  "description": "I named this recipe after the beautiful summer nights I spent with my family on the balcony eating this tasty recipe, because at this season in Greece we have plenty of eggplants and cook them in various ways.",
+  "ingredients": [
+    "2 large eggplants",
+    "½ cup olive oil for frying",
+    "2 medium onions, chopped",
+    "2 cloves garlic, minced",
+    "2 small tomatoes, chopped",
+    "1 green bell pepper, seeded and chopped",
+    "1 tablespoon chopped fresh parsley",
+    "Salt and pepper to taste",
+    "4 cups dry bread crumbs",
+    "1 cup crumbled feta cheese"
+  ],
+  "direction": [
+    "1. Remove the leaves from the eggplants, and slice in half lengthwise.",
+    "2. Carefully scoop out the centers of the eggplants, leaving a half-inch shell so they resemble 'canoes'.",
+    "3. Cut the center portion into small pieces, and set aside.",
+    "4. Preheat the oven to 350 degrees F (175 degrees C).",
+    "5. Heat the oil in a large skillet over medium heat.",
+    "6. Add the onions and garlic, and saute for a few minutes, until tender.",
+    "7. Add the eggplant pieces, and cook until soft, about 5 minutes. Then, stir in the tomato, green pepper, and parsley. Simmer for about 10 minutes.",
+    "8. Remove from the heat, and transfer to a large bowl. Stir in the bread crumbs until evenly blended. Divide the mixture evenly between the four eggplant shells. Sprinkle feta cheese over the top. Place the eggplant halves on a baking sheet.",
+    "9. Bake for 15 to 20 minutes in the preheated oven, until the tops are browned and the cheese is melted. Serve hot or cold. I prefer them chilled."
+  ],
+  "difficulty": "2",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb86dccf768430d3438fc43"
+  },
+  "title": "Easy Meatballs",
+  "description": "This is a very easy and no fail recipe for meatloaf. It won't take long to make at all, and it's quite good!",
+  "ingredients": [
+    "1 ½ pounds ground beef",
+    "1 egg",
+    "1 onion, chopped",
+    "1 cup milk",
+    "1 cup dried bread crumbs",
+    "Salt and pepper to taste",
+    "2 tablespoons brown sugar",
+    "2 tablespoons prepared mustard",
+    "⅓ cup ketchup"
+  ],
+  "direction": [
+    "1. Preheat oven to 350 degrees F (175 degrees C).",
+    "2. In a large bowl, combine the beef, egg, onion, milk and bread OR cracker crumbs. Season with salt and pepper to taste and place in a lightly greased 9x5-inch loaf pan, or form into a loaf and place in a lightly greased 9x13-inch baking dish.",
+    "3. In a separate small bowl, combine the brown sugar, mustard and ketchup. Mix well and pour over the meatloaf.",
+    "4. Bake at 350 degrees F (175 degrees C) for 1 hour."
+  ],
+  "difficulty": "2",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb86fd0f768430d3438fc44"
+  },
+  "title": "Juicy Roasted Chicken",
+  "description": "My grandmother's recipe for roasted chicken. We are German and she used to do it this way all the time. I never have had a chicken this juicy before; this little trick works and makes the people eating it go silent. It's funny. We nibble on the celery after.",
+  "ingredients": [
+    "1 (3 pound) whole chicken, giblets removed",
+    "Salt and black pepper to taste",
+    "1 tablespoon onion powder, or to taste",
+    "½ cup margarine, divided",
+    "1 stalk celery, leaves removed"
+  ],
+  "direction": [
+    "1. Preheat oven to 350 degrees F (175 degrees C).",
+    "2. Place chicken in a roasting pan, and season generously inside and out with salt and pepper. Sprinkle inside and out with onion powder. Place 3 tablespoons margarine in the chicken cavity. Arrange dollops of the remaining margarine around the chicken's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity.",
+    "3. Bake uncovered 1 hour and 15 minutes in the preheated oven, to a minimum internal temperature of 180 degrees F (82 degrees C). Remove from heat, and baste with melted margarine and drippings. Cover with aluminum foil, and allow to rest about 30 minutes before serving."
+  ],
+  "difficulty": "1",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87036f768430d3438fc45"
+  },
+  "title": "Beef Stroganoff with Ground Beef",
+  "description": "Ground beef makes this stroganoff sauce a quick, tasty comfort food served over noodles or mashed spuds.",
+  "ingredients": [
+    "2 tablespoons butter",
+    "1 cup sliced fresh mushrooms",
+    "⅓ cup chopped onion",
+    "1 pound lean ground beef",
+    "2 tablespoons all-purpose flour",
+    "1 teaspoon garlic powder",
+    "1 teaspoon seasoning salt",
+    "½ teaspoon ground paprika",
+    "¼ teaspoon ground black pepper",
+    "1 (10.75 ounce) can condensed cream of mushroom soup",
+    "¾ cup sour cream, or more to taste",
+    "1 tablespoon liquid smoke, or to taste",
+    "1 tablespoon Worcestershire sauce"
+  ],
+  "direction": [
+    "1. Melt butter in a large skillet over medium-high heat.",
+    "2. Add mushrooms and onions and saute until onions have turned translucent, about 5 minutes.",
+    "3. Add ground beef and cook and stir until browned and crumbly, 5 to 7 minutes.",
+    "4. Sprinkle with flour, garlic powder, seasoning salt, paprika, and pepper; stir until mixed in.",
+    "5. Add condensed soup, sour cream, liquid smoke, and Worcestershire sauce. Reduce heat to medium, and cook and stir until sauce has thickened, 5 to 7 minutes."
+  ],
+  "difficulty": "1",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87114f768430d3438fc46"
+  },
+  "title": "Low Carb Turkey-Stuffed Peppers",
+  "description": "Put a healthier family classic on the dinner table by substituting ground turkey for ground beef, and using frozen riced cauliflower instead of high-carb white rice.",
+  "ingredients": [
+    "nonfat cooking spray",
+    "1 tablespoon olive oil",
+    "1 pound ground turkey",
+    "½ cup diced onion",
+    "3 tablespoons diced fresh jalapeno pepper, or to taste",
+    "2 cloves garlic, chopped",
+    "2 cups frozen cauliflower rice (such as Green Giant®)",
+    "1 (14.5 ounce) can diced tomatoes, undrained",
+    "1 (8 ounce) can tomato sauce",
+    "½ cup water",
+    "2 teaspoons sambal oelek chili paste",
+    "½ teaspoon salt",
+    "½ teaspoon freshly ground black pepper",
+    "2 large bell peppers, any color - cut in half lengthwise, cored, and seeded",
+    "4 (1 inch) cubes Colby-Jack cheese",
+    "aluminum foil",
+    "⅓ cup shredded Colby-Jack cheese",
+    "4 teaspoons reduced-fat sour cream",
+    "8 slices pickled jalapeno peppers"
+  ],
+  "direction": [
+    "1. Preheat the oven to 375 degrees F (190 degrees C). Spray a baking dish with cooking spray.",
+    "2. Heat olive oil in a large skillet over medium heat. Stir in ground turkey, onion, jalapeno, and garlic. Cook and stir until turkey browns and vegetables are tender, 8 to 10 minutes. Drain grease from the skillet. Add frozen riced cauliflower, tomatoes, tomato sauce, water, chili paste, salt, and pepper; stir until well incorporated. Reduce heat and simmer for 5 minutes.",
+    "3. Place bell pepper halves in the prepared baking dish. Place 1 Colby-Jack cheese cube in each pepper half, and fill with turkey mixture. Spoon remaining turkey mixture into the dish around the peppers.",
+    "4. Cover dish with aluminum foil, and bake in the preheated oven for 30 minutes. Remove foil and sprinkle each pepper with shredded Colby-Jack cheese. Bake, uncovered, until peppers are soft and cheese has melted, about 10 minutes more.",
+    "5. To serve, spoon a little turkey mixture onto a plate, and place a bell pepper half on top of it. Top each serving with 1 teaspoon sour cream and 2 jalapeno slices."
+  ],
+  "difficulty": "4",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87133f768430d3438fc47"
+  },
+  "title": "Bubba's Jambalaya",
+  "description": "Easy Southern classic, with chicken, sausage, ham, and shrimp.",
+  "ingredients": [
+    "6 slices bacon, cut into 1 inch pieces",
+    "1 cup chopped celery",
+    "1 green bell pepper, seeded and chopped",
+    "1 onion, chopped",
+    "½ pound cubed cooked ham",
+    "½ pound cubed cooked chicken",
+    "½ pound cubed smoked sausage",
+    "2 (14.5 ounce) cans crushed tomatoes, with liquid",
+    "2 cups beef broth",
+    "2 cups chicken broth",
+    "1 teaspoon dried thyme",
+    "2 teaspoons Cajun seasoning",
+    "2 cups uncooked white rice",
+    "½ pound salad shrimp"
+  ],
+  "direction": [
+    "Heat a large pot over medium-high heat. Add bacon, and cook until crisp. Remove bacon pieces with a slotted spoon, and set aside. Add celery, bell pepper, and onion to the bacon drippings, and cook until tender.",
+    "Add the ham, chicken and sausage to the pot, and pour in the tomatoes, beef broth and chicken broth. Season with thyme and Cajun seasoning. Bring to a boil, and add the rice. Bring to a boil, then turn the heat to low, cover, and simmer for about 20 minutes, until the rice is tender.",
+    "Stir in the shrimp and bacon just before serving, and heat through. If you use uncooked shrimp, let it cook for about 5 minutes before serving."
+  ],
+  "difficulty": "2",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87162f768430d3438fc48"
+  },
+  "title": "Easy Homemade Chili",
+  "description": "Easy homemade chili. Goes great with cornbread or over corn chips for a chili pie! I like to use spicy pinto beans.",
+  "ingredients": [
+    "1 pound ground beef",
+    "1 onion, chopped",
+    "1 (14.5 ounce) can stewed tomatoes",
+    "1 (15 ounce) can tomato sauce",
+    "1 (15 ounce) can kidney beans",
+    "1 ½ cups water",
+    "1 pinch chili powder",
+    "1 pinch garlic powder",
+    "salt and pepper to taste"
+  ],
+  "direction": [
+    "1. In a large saucepan over medium heat, combine the beef and onion and saute until meat is browned and onion is tender. Add the stewed tomatoes with juice, tomato sauce, beans and water.",
+    "2. Season with the chili powder, garlic powder, salt and ground black pepper to taste. Bring to a boil, reduce heat to low, cover and let simmer for 15 minutes."
+  ],
+  "difficulty": "1",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87180f768430d3438fc49"
+  },
+  "title": "Chili",
+  "description": "After years of adjustments I have found a recipe for all to enjoy. Previous ones were either too hot or too mild, this one even was to the liking of my finance who hates chili.",
+  "ingredients": [
+    "4 tablespoons olive oil",
+    "1 yellow onion, chopped",
+    "1 red bell pepper, chopped",
+    "1 Anaheim chile pepper, chopped",
+    "2 red jalapeno pepper, chopped",
+    "4 garlic cloves, minced",
+    "2 ½ pounds lean ground beef",
+    "¼ cup Worcestershire sauce",
+    "1 pinch garlic powder, or to taste",
+    "2 beef bouillon cubes",
+    "1 (12 fluid ounce) can or bottle light beer (such as Coors®)",
+    "1 (28 ounce) can crushed San Marzano tomatoes",
+    "1 (14.5 ounce) can fire-roasted diced tomatoes",
+    "1 (12 ounce) can tomato paste",
+    "½ cup white wine",
+    "2 tablespoons chili powder",
+    "2 tablespoons ground cumin",
+    "1 tablespoon brown sugar",
+    "1 tablespoon chipotle pepper sauce",
+    "2 ½ teaspoons dried basil",
+    "1 ½ teaspoons smoked paprika",
+    "1 teaspoon salt",
+    "½ teaspoon dried oregano",
+    "½ teaspoon ground black pepper",
+    "2 (16 ounce) cans dark red kidney beans (such as Bush's®)",
+    "1 cup sour cream",
+    "3 tablespoons chopped fresh cilantro",
+    "½ teaspoon ground cumin"
+  ],
+  "direction": [
+    "1. Heat oil in a large pot over medium heat; cook and stir onion, bell pepper, Anaheim pepper, jalapeno peppers, and garlic in the hot oil until softened.",
+    "2. Meanwhile, heat a large skillet over medium-high heat. Cook and stir beef in the hot skillet until browned and crumbly, 5 to 7 minutes; add Worcestershire sauce and garlic powder. Crumble bouillon cubes over beef and add beer. Continue to cook , scraping any browned bits from the bottom of the skillet, until liquid is hot, about 3 minutes. Stir beef mixture into pepper mixture.",
+    "3. Stir crushed tomatoes, diced tomatoes, tomato paste, and wine to the beef mixture. Season with chili powder, 2 tablespoons cumin, brown sugar, pepper sauce, basil, paprika, salt, oregano, and black pepper. Bring to a boil and reduce heat to medium-low. Cover and simmer until meat and vegetables are very tender and flavors have developed in the chili, about 90 minutes, stirring occasionally.",
+    "4. Mix kidney beans into beef and vegetables. Continue to simmer until beans are hot, about 30 minutes more.",
+    "5. Blend sour cream, cilantro, and remaining 1/2 teaspoon cumin in a food processor until smooth. Serve sour cream mixture with chili."
+  ],
+  "difficulty": "4",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb871d4f768430d3438fc4a"
+  },
+  "title": "Spicy Pork Tenderloin with Apples and Sweet Potatoes",
+  "description": "Jazz up your pork tenderloin with this spicy-sweet combo of apples, cider, sweet potatoes, and as much or as little heat as your palate requires! This easy oven dish only needs one other pot to reduce the sauce on top of the stove. It is large enough for a crowd or for leftovers later in the week. Add a green veggie or a salad, and some crusty dinner bread, and you are good to go!",
+  "ingredients": [
+    "cooking spray",
+    "1 tablespoon ground ginger",
+    "1 tablespoon light brown sugar",
+    "1 teaspoon chipotle chili powder, or to taste",
+    "salt and ground black pepper to taste",
+    "2 (1 1/2 pound) pork tenderloins",
+    "4 apples, peeled and cut into 8 pieces each",
+    "1 large sweet potato, peeled and cut into 1 1/2-inch pieces",
+    "4 tablespoons butter, cut into small pieces",
+    "1 ½ cups apple cider",
+    "1 lime, juiced",
+    "½ teaspoon granulated garlic",
+    "½ teaspoon ground ginger",
+    "⅛ teaspoon chipotle chile powder",
+    "⅛ teaspoon garam masala",
+    "salt and ground black pepper to taste",
+    "aluminum foil"
+  ],
+  "direction": [
+    "1. Preheat the oven to 425 degrees F (220 degrees C). Spray a 9x13-inch baking dish with cooking spray.",
+    "2. Mix together 1 tablespoon ginger, brown sugar, 1 teaspoon chili powder, salt, and pepper in a bowl to create a rub. Rub combined seasonings on all sides of the pork tenderloins, using the entire amount.",
+    "3. Place apples and sweet potatoes in the bottom of the prepared pan; dot with butter.",
+    "4. Mix together apple cider, lime juice, garlic, 1/2 teaspoon ginger, 1/8 teaspoon chili powder, garam masala, salt, and pepper in a bowl. Pour over apples and sweet potatoes and place tenderloins on top.",
+    "5. Bake in the preheated oven for 20 minutes. Ladle cooking liquid over apples and sweet potatoes, turn tenderloins over, and continue baking until pork is slightly pink at the center, about 20 minutes longer. A meat thermometer placed in the center of the thickest tenderloin should read 145 degrees F (63 degrees C).",
+    "6. Remove apples and sweet potatoes to a serving platter using a slotted spoon. Place tenderloins on top and cover with aluminum foil.",
+    "7. Pour cooking liquid from the baking dish into a 1-quart saucepan. Heat over medium-high heat until liquid comes to a boil. Boil, stirring occasionally, until the mixture is reduced by one half, 10 to 15 minutes.",
+    "8. Drizzle sauce over pork, apples, and sweet potatoes. Slice tenderloins and serve."
+  ],
+  "difficulty": "5",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb8724cf768430d3438fc4b"
+  },
+  "title": "World's Best Lasagna",
+  "description": "It takes a little work, but it is worth it.",
+  "ingredients": [
+    "1 pound sweet Italian sausage",
+    "¾ pound lean ground beef",
+    "½ cup minced onion",
+    "2 cloves garlic, crushed",
+    "1 (28 ounce) can crushed tomatoes",
+    "2 (6 ounce) cans tomato paste",
+    "2 (6.5 ounce) cans canned tomato sauce",
+    "½ cup water",
+    "2 tablespoons white sugar",
+    "1 ½ teaspoons dried basil leaves",
+    "½ teaspoon fennel seeds",
+    "1 teaspoon Italian seasoning",
+    "1 ½ teaspoons salt, divided, or to taste",
+    "¼ teaspoon ground black pepper",
+    "4 tablespoons chopped fresh parsley",
+    "12 lasagna noodles",
+    "16 ounces ricotta cheese",
+    "1 egg",
+    "¾ pound mozzarella cheese, sliced",
+    "¾ cup grated Parmesan cheese"
+  ],
+  "direction": [
+    "1. In a Dutch oven, cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, basil, fennel seeds, Italian seasoning, 1 teaspoon salt, pepper, and 2 tablespoons parsley. Simmer, covered, for about 1 1/2 hours, stirring occasionally.",
+    "2. Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. In a mixing bowl, combine ricotta cheese with egg, remaining parsley, and 1/2 teaspoon salt.",
+    "3. Preheat oven to 375 degrees F (190 degrees C).",
+    "4. To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with one half of the ricotta cheese mixture. Top with a third of mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray, or make sure the foil does not touch the cheese.",
+    "5. Bake in preheated oven for 25 minutes. Remove foil, and bake an additional 25 minutes. Cool for 15 minutes before serving."
+  ],
+  "difficulty": "4",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87266f768430d3438fc4c"
+  },
+  "title": "Chef John's Stuffed Peppers",
+  "description": "This recipe's roots can be traced back to the Great Depression, when farmers first began selling the unripe peppers out of necessity. Of course, we did what Americans always do when faced with a new variety of food, we stuffed meat in it.",
+  "ingredients": [
+    "1 cup uncooked long grain white rice",
+    "2 cups water",
+    "1 onion, diced",
+    "1 tablespoon olive oil",
+    "2 cups marinara sauce",
+    "1 cup beef broth",
+    "1 tablespoon balsamic vinegar",
+    "¼ teaspoon crushed red pepper flakes",
+    "1 pound lean ground beef",
+    "¼ pound hot Italian pork sausage, casing removed",
+    "1 (10 ounce) can diced tomatoes",
+    "¼ cup chopped fresh Italian parsley",
+    "4 cloves garlic, minced",
+    "2 teaspoons salt",
+    "1 teaspoon freshly ground black pepper",
+    "1 pinch ground cayenne pepper",
+    "4 large green bell peppers, halved lengthwise and seeded",
+    "1 cup finely grated Parmigiano-Reggiano cheese, plus more for topping"
+  ],
+  "direction": [
+    "1. Preheat the oven to 375 degrees F (190 degrees C).",
+    "2. Bring rice and water to a boil in a saucepan over high heat. Reduce heat to medium-low, cover, and simmer until the rice is tender, and the liquid has been absorbed, 20 to 25 minutes. Set the cooked rice aside.",
+    "3. Cook onion and olive oil over medium heat until onion begins to soften, about 5 minutes. Transfer half of cooked onion to a large bowl and set aside.",
+    "4. Stir marinara sauce, beef broth, balsamic vinegar, and red pepper flakes into the skillet; cook and stir for 1 minute.",
+    "5. Pour sauce mixture into a 9x13-inch baking dish and set aside.",
+    "6. Combine ground beef, Italian sausage, diced tomatoes, Italian parsley, garlic, salt, black pepper, and cayenne pepper into bowl with reserved onions; mix well. Stir in cooked rice and Parmigiano Reggiano. Stuff green bell peppers with beef and sausage mixture.",
+    "7. Place stuffed green bell pepper halves in the baking dish over tomato sauce; sprinkle with remaining Parmigiano-Reggiano, cover baking dish with aluminum foil, and bake in the preheated oven for 45 minutes.",
+    "8. Remove aluminum foil and bake until the meat is no longer pink, the green peppers are tender and the cheese is browned on top, an addition 20 to 25 minutes."
+  ],
+  "difficulty": "4",
+  "type": "dinner"
+},
+{
+  "_id": {
+    "$oid": "5fb87283f768430d3438fc4d"
+  },
+  "title": "Nat's Shrimp and Veggie Stuffed Zucchini",
+  "description": "A light meal that can be served alone or as a side dish. Great for an overgrown zucchini.",
+  "ingredients": [
+    "1 extra large zucchini",
+    "¼ cup olive oil, divided",
+    "6 cloves garlic, finely chopped",
+    "1 shallot, finely chopped",
+    "½ pound large shrimp - shelled, deveined, and cut in half",
+    "1 large tomato - peeled, seeded and diced",
+    "8 cremini mushrooms, quartered",
+    "¼ cup grated Parmesan cheese",
+    "8 leaves fresh basil, torn",
+    "ground black pepper to taste",
+    "kosher salt to taste",
+    "garlic powder to taste",
+    "¼ cup grated Parmesan cheese, divided"
+  ],
+  "direction": [
+    "1. Preheat the oven's broiler and set the oven rack about 6 inches from the heat source. Grease a baking sheet.",
+    "2. Cut the zucchini in half the long way, and scoop out the seeds and pulp, leaving a thick shell of flesh. Brush both halves of the zucchini with about 1 tablespoon of olive oil, and place them, cut sides down, onto the prepared baking sheet. Bake until the zucchini are hot and beginning to release beads of moisture, 5 to 10 minutes. Remove the zucchini from the oven.",
+    "3. Reduce the oven heat to 450 degrees F (230 degrees C).",
+    "4. Heat 2 tablespoons of olive oil in a skillet over medium-low heat, and cook and stir the garlic and shallot until translucent, about 5 minutes. Remove from the heat and let cool.",
+    "5. Place 1 tablespoon of olive oil, the shrimp, diced tomato, mushrooms, 1/4 cup of Parmesan cheese, basil, and the cooked garlic and shallot into a bowl, and stir to mix. Season to taste with black pepper, salt, and garlic powder. Stuff the mixture into the zucchini halves, and sprinkle each zucchini with about 2 tablespoons of Parmesan cheese.",
+    "6. Bake the stuffed zucchini in the preheated oven until the cheese is browned and the filling is cooked through and hot, about 20 minutes."
+  ],
+  "difficulty": "3",
+  "type": "dinner"
+}]
