@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+    <title>Chef Tech</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/test.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
 <body>
-  <!--Navigation bar-->
-  <div class="html-container">
-    <div class="html-section">
-      <div class="html-project">
-        <div class="navigation">
-            <ul class="nav-type">
-              <p><a href="index" class="active">Home</a></p>
-              <p><a href="recipes" class="active2">Recipes</a></p>
-              <p><a href="aboutus" class="active1">About</a></p>
-              <p><a href="login" class="active3">Login</a></p>
-            </ul>
-        </div>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index">
+        <img src="/image/logo.png" class="logo">
+      </a>
+      <button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu">
+        <a href="index">home</a>
+        <a href="aboutus">about</a>
+        <a href="#">contact</a>
+        <a href="recipes">recipe</a>
+        <a href="login">login</a>
       </div>
     </div>
-  </div>
-<div class="form-box">
-    <div class="head">AboutUs</div>
-    <span class="v5_6">Nhat Nguyen; Ha Tran
-Crystal Jouce Jao
-Rene Walcott-Taylor
-Kenadi Wilkerson
-Minh Tri Tran
-Jonathan Kolson.</span>
+  </nav>
+  <div class="about">
+    <div class="title">
+      <p>Nhat Nguyen</p>
+      <p>Ha Tran</p>
+      <p>Crystal Jouce Jao</p>
+      <p>Rene Walcott-Taylor</p>
+      <p>Kenadi Wilkerson</p>
+      <p>Minh Tri Tran</p>
+      <p>Jonathan Kolson</p>
     </div>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">
-$(window).load(function(){
-  $('.form-group input').on('focus blur', function (e) {
-      $(this).parents('.form-group').toggleClass('active', (e.type === 'focus' || this.value.length > 0));
-  }).trigger('blur');
-});
-</script>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('.menu-toggler').click(function(){
+        $(this).toggleClass("active");
+        $(".navbar-menu").toggleClass("active");
+      })
+    });
+  </script>
 </body>
 </html>

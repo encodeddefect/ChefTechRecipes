@@ -16,6 +16,11 @@ router.get('/aboutus', function (req, res, next) {
     res.render('aboutus');
 });
 
+/* GET Contact Us Page*/
+router.get('/contact', function (req, res, next) {
+  res.render('contact');
+});
+
 /* GET Login Page. */
 router.get('/login', function(req, res, next) {
   res.render('login');

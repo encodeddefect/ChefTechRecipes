@@ -1,53 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+    <title>Chef Tech</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/test.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
 </head>
 <body>
-  <!--Navigation bar-->
-  <div class="html-container">
-    <div class="html-section">
-      <div class="html-project">
-        <div class="navigation">
-            <ul class="nav-type">
-               <p><a href="index" class="active">Home</a></p>
-               <p><a href="recipes" class="active2">Recipes</a></p>
-               <p><a href="aboutus" class="active1">About</a></p>
-               <p><a href="login" class="active3">Login</a></p>
-            </ul>
-        </div>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index">
+        <img src="/image/logo.png" class="logo">
+      </a>
+      <button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu">
+        <a href="index">home</a>
+        <a href="aboutus">about</a>
+        <a href="#">contact</a>
+        <a href="recipes">recipe</a>
+        <a href="login">login</a>
       </div>
     </div>
+  </nav>
+  <div class="login">
+  <!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+    <div id="firebaseui-auth-container"></div>
+    <div id="loader">Loading...</div>
   </div>
-<div class="form-box">
-    <div class="head">Welcome Back</div>
-    <form action="#" id="login-form">
-        <div class="form-group">
-          <label class="label-control">
-            <span class="label-text">Email</span>
-          </label>
-          <input type="email" name="email" class="form-control" />
-        </div>
-        <div class="form-group">
-          <label class="label-control">
-            <span class="label-text">Password</span>
-          </label>
-          <input type="password" name="password" class="form-control" />
-        </div>
-        <input type="submit" value="Login" class="btn" />
-        <p class="text-p">Don't have an account? <a href="registration">Sign Up</a> </p>
-    </form>
-  </div>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">
-$(window).load(function(){
-  $('.form-group input').on('focus blur', function (e) {
-      $(this).parents('.form-group').toggleClass('active', (e.type === 'focus' || this.value.length > 0));
-  }).trigger('blur');
+
+  <script>
+    $(document).ready(function(){
+      $('.menu-toggler').click(function(){
+        $(this).toggleClass("active");
+        $(".navbar-menu").toggleClass("active");
+      })
+    });
+
+  // Initialize the FirebaseUI Widget using Firebase.
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+  firebase.initializeApp({
+  apiKey: "AIzaSyDAGpKYGs8AZq_ET5_iLzNLV7Q01rZv7bU",
+  authDomain: "group1-c3a16.firebaseapp.com"
 });
+
+  ui.start('#firebaseui-auth-container', {
+    signInOptions: [
+      // List of OAuth providers supported.
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+      firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+      firebase.auth.TwitterAuthProvider.PROVIDER_ID,
+      firebase.auth.GithubAuthProvider.PROVIDER_ID
+    ],
+  // Other config options...
+  });
+
+var uiConfig = {
+  callbacks: {
+    signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+      // User successfully signed in.
+      // Return type determines whether we continue the redirect automatically
+      // or whether we leave that to developer to handle.
+      return true;
+    },
+    uiShown: function() {
+      // The widget is rendered.
+      // Hide the loader.
+      document.getElementById('loader').style.display = 'none';
+    }
+  },
+  // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
+  signInFlow: 'popup',
+  signInSuccessUrl: 'http://localhost:3000/index',
+  signInOptions: [
+    // Leave the lines as is for the providers you want to offer your users.
+    firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+    firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+    firebase.auth.TwitterAuthProvider.PROVIDER_ID,
+    firebase.auth.GithubAuthProvider.PROVIDER_ID,
+    firebase.auth.EmailAuthProvider.PROVIDER_ID,
+    firebase.auth.PhoneAuthProvider.PROVIDER_ID
+  ],
+  // Terms of service url.
+  tosUrl: '<your-tos-url>',
+  // Privacy policy url.
+  privacyPolicyUrl: '<your-privacy-policy-url>'
+};
+// The start method will wait until the DOM is loaded.
+ui.start('#firebaseui-auth-container', uiConfig);
+
 </script>
 </body>
 </html>
